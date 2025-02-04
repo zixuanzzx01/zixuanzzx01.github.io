@@ -2,8 +2,7 @@ baseURL: https://zixuanzzx01.github.io
 languageCode: en-us
 title: My Site
 theme: PaperMod
-paginate: 5
-theme: PaperMod
+
 
 enableRobotsTXT: true
 buildDrafts: false
