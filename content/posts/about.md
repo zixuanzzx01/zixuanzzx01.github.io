@@ -2,4 +2,4 @@
 title: About
 ---
 
-This is the second page. 
+Hi! Thanks for visiting. This site is still under construction, and more contents will be available soon. 
