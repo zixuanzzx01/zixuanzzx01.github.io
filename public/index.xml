@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on My Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://zixuanzzx01.github.io/</link>
     <description>Recent content in Home on My Site</description>
     <image>
       <title>My Site</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://zixuanzzx01.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zixuanzzx01.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.143.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zixuanzzx01.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/posts/about/</link>
+      <link>https://zixuanzzx01.github.io/posts/about/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/about/</guid>
+      <guid>https://zixuanzzx01.github.io/posts/about/</guid>
       <description>&lt;p&gt;Hi :)&lt;/p&gt;
 &lt;p&gt;Thanks for visiting. More contents will be updated soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Detecting Neighborhood Migration Patterns in Chicago</title>
-      <link>http://localhost:1313/posts/migration-patterns/</link>
+      <link>https://zixuanzzx01.github.io/posts/migration-patterns/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/migration-patterns/</guid>
+      <guid>https://zixuanzzx01.github.io/posts/migration-patterns/</guid>
       <description>&lt;p&gt;This page will be updated soon.&lt;/p&gt;</description>
     </item>
   </channel>
