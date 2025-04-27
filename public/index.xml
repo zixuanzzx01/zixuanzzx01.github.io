@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on My Site</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on My Site</description>
-    <image>
-      <title>My Site</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.143.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detecting Neighborhood Migration Patterns in Chicago</title>
+      <link>http://localhost:1313/posts/migration-patterns/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/migration-patterns/</guid>
+      <description>&lt;p&gt;For results presented in heatmaps, see link below.&#xA;&lt;a href=&#34;https://zixuanzzx01.github.io/2018heatmap.html&#34;&gt;https://zixuanzzx01.github.io/2018heatmap.html&lt;/a&gt;&#xA;&lt;a href=&#34;https://zixuanzzx01.github.io/2023heatmap.html&#34;&gt;https://zixuanzzx01.github.io/2023heatmap.html&lt;/a&gt;&#xA;&lt;a href=&#34;https://zixuanzzx01.github.io/typology_transitions_sankey.html&#34;&gt;https://zixuanzzx01.github.io/typology_transitions_sankey.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/posts/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/about/</guid>
-      <description>&lt;p&gt;This is the second page.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi! Thanks for visiting. This site is still under construction, and more contents will be available soon.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
