@@ -8,17 +8,19 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+pygmentsUseClasses: true
+enableEmoji: true
 
 minify:
   disableXML: true
-  minifyOutput: true
+  # minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Zixuan Zhou
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -72,13 +74,17 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Zixuan's Personal Website"
     Content: |
-      <p> Welcome to my personal website. This is Zixuan Zhou, or Charlotte. I'm a first-year master student in Computational Social Science (MACSS) at the University of Chicago. Before Chicago, I received my bachelor degrees in English and Economics from Peking University. I also spent an amzing quarter at the University of California, Los Angeles as an exchange student in the Fall of 2022. </p>
+      **Hi there :)**
 
-      <p> Growing up in Nanjing and having spent my college days in Beijing and Los Angeles, I have always been facinated by cities - their structure, neighborhoods, and the way communities move. I want to understand how spatial structures influence social and economic ones, and the approaches we may take to address inequalities that are unique to the urban setting, such as those in housing and education. Currently, my research focuses on how the quality of education is capitalized through housing, and the role of school choice programs (and school redistricting) in changing the urban dynamics through affecting people's housing choices. As a student in Computational Social Science, I love to bring in new methods from computer and data science to faciliate my research. </p>
+      Welcome to my personal website. This is **Zixuan Zhou**, or Charlotte. I'm a first-year master's student in Computational Social Science (MACSS) at the University of Chicago. Before Chicago, I received my bachelor degrees in English and Economics from Peking University, China in 2024. I also spent an amzing quarter at the University of California, Los Angeles as an exchange student in the Fall of 2022.
 
-      <p> Outside of academia, music, film, and literature are my lifelong friends. Throughout college I arranged music for SEABling, an amazing a cappella group of which I was a proud member. I continue to make music in my free time. I also enjoyed being an English major, writing short stories and doing literary projects on political science fiction and, unsurprisingly, Virginia Woolf. </p>
+      Growing up in Nanjing and having spent my college days in Beijing and Los Angeles, I have always been facinated by cities - their structure, neighborhoods, and the way communities move. I want to understand how spatial structures influence social and economic ones. I also wish to explore the approaches we may take to address inequalities that are unique to the urban setting, such as those in housing and education. 
+      
+      Currently, my research focuses on how the quality of education is capitalized through housing, and the role of school choice programs (and school redistricting) in changing the urban dynamics through affecting people's housing choices. As a student in Computational Social Science, I constantly bring in new methods from computer and data science to faciliate my research. 
+
+      Outside of academia, music, film, and literature are my lifelong friends. Throughout college I arranged music for SEABling, an amazing a cappella group of which I was a proud member. I still make music in my free time. I also enjoyed being an English major, writing short stories and doing literary projects on political science fiction and, unsurprisingly, Virginia Woolf. 
       
 
 
@@ -101,10 +107,10 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  editPost:
-    URL: "https://github.com/zixuanzzx01/zixuanzzx01.github.io/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+    # URL: "https://github.com/zixuanzzx01/zixuanzzx01.github.io/main/content"
+    # Text: "Suggest Changes" # edit text
+    # appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -119,24 +125,31 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 1
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 10
     
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
 
+  goldmark:
+    renderer:
+      unsafe: true
 
