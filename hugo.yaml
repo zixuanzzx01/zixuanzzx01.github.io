@@ -17,8 +17,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Zixuan Zhou's Personal Website
+  description: "This is Zixuan Zhou's personal website."
   keywords: [Blog, Portfolio, PaperMod]
   author: Zixuan Zhou
   # author: ["Me", "You"] # multiple authors
