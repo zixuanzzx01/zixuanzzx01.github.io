@@ -94,7 +94,7 @@ params:
     - name: github
       url: "https://github.com/zixuanzzx01"
     - name: email
-      url: "zixuanzhou@uchicago.edu"
+      url: "mailto:zixuanzhou@uchicago.edu"
 
   analytics:
     google:
