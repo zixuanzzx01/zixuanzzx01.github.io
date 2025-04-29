@@ -1,0 +1,13 @@
+<!-- layouts/shortcodes/include-html.html -->
+{{ $file := .Get 0 }}
+{{ $width := .Get 1 | default "80%" }}
+{{ $align := .Get 2 | default "left" }}
+
+{{ $html := readFile $file }}
+
+
+
+<div style="width:{{ $width }}; margin:0 auto; text-align:{{ $align }};">
+    {{ $html | safeHTML }}
+</div>
+
