@@ -105,7 +105,7 @@
   "keywords": [
     "Research"
   ],
-  "articleBody": "Chicago has always been a mosaic of shifting neighborhoods, but how they change — and why — is often hidden in thousands of rows of census data. In this project I set out to make those movements visible. Using recent American Community Survey (ACS) records and a dash of machine learning, I traced who is moving into each census tract, what makes those areas attractive, and how the picture has evolved between 2018 and 2023. Understanding these flows matters: migration reshapes the city’s economic life, housing market, and social fabric.\nFrom Raw Numbers to Migration “Fingerprints” Clustering the movers. I began with 36 variables that describe only one thing: inflow migration in 2018—how many people arrived, where they came from, and their income levels. Running K-means on a PCA-reduced version of that data uncovered five distinctive migration fingerprints without relying on any preset labels.\nTeaching the model to predict. Next, I asked whether everyday neighborhood features—median income, rent, rail access, education levels, and more—could predict those fingerprints. Machine Learning models, trained on 2018 data and tested on 2023, achieved moderate accuracy. The biggest signals?\nA high share of residents with a bachelor’s degree A large proportion of renter-occupied housing What the Patterns Show Cluster label (brief) Who’s moving in? Typical origin Income tilt High-income magnet Professionals \u0026 managers Within Cook County Higher External working-class hub Service \u0026 trades workers Out-of-state Lower Local working-class Similar income peers Nearby tracts Lower Mixed inflow, extremes Both very low \u0026 very high incomes Mixed Bimodal Low inflow, stable Few newcomers – – The labels are shorthand derived from centroid characteristics; see the full technical report for details.\nChicago from 2018 to 2023: What Changed? Between 2018 and 2023 many tracts switched clusters, underscoring how fluid neighborhood identities can be. Tracts that gained rapid rail access, for instance, often shifted toward high-income or mixed-income magnets. At the same time, some formerly popular areas cooled as median rents outpaced incomes.\nWant to Know More? The full slide deck—including data sources, variable lists, and model diagnostics—is available here. I’m always happy to chat about the methods, limitations, or next steps.\n",
+  "articleBody": "Chicago has always been a mosaic of shifting neighborhoods, but how they change — and why — is often hidden in thousands of rows of census data. In this project I set out to make those movements visible. Using recent American Community Survey (ACS) records and a dash of machine learning, I traced who is moving into each census tract, what makes those areas attractive, and how the picture has evolved between 2018 and 2023. Understanding these flows matters as migration often tells stories about the city’s economic and social changes.\nFrom Raw Numbers to Migration “Fingerprints” Clustering the movers. I began with 36 variables that describe only one thing: inflow migration in 2018 - how many people arrived, where they came from, and their income levels. Running K-means on a PCA-reduced version of that data uncovered five distinctive migration fingerprints without relying on any preset labels.\nTeaching the model to predict. Next, I asked whether everyday neighborhood features—median income, rent, rail access, education levels, and more - could predict those fingerprints. Machine Learning models, trained on 2018 data and tested on 2023, achieved moderate accuracy. The most predicative features are levels of education and the proportion of renter-occupied housing. Note that these predictors do not suggest causal relationships but merely provides a way for understanding the concurrence between migration and socio-economic changes.\nMigration Patterns Cluster label (brief) Typical origin Income tilt High-income magnet Within Cook County Higher External working-class hub Out-of-state Lower Local working-class Nearby tracts Lower Mixed inflow, extremes Mixed Bimodal Low inflow, stable – – The labels are shorthand derived from centroid characteristics; see the full technical report for details.\nChicago from 2018 to 2023: What Changed? Between 2018 and 2023 many tracts switched clusters, underscoring how fluid neighborhood identities can be. Tracts that gained rapid rail access, for instance, often shifted toward high-income or mixed-income magnets. At the same time, some formerly popular areas cooled as median rents outpaced incomes.\nWant to Know More? The full slide deck—including data sources, variable lists, and model diagnostics—is available here. I’m always happy to chat about the methods, limitations, or next steps.\n",
   "wordCount" : "353",
   "inLanguage": "en",
   "image":"http://localhost:1313/images/test.jpeg","datePublished": "2025-02-28T00:00:00Z",
@@ -205,20 +205,15 @@
 <figure class="entry-cover"><img loading="eager" src="http://localhost:1313/images/test.jpeg" alt="A descriptive caption for the image">
         <p>Who moves where?</p>
 </figure>
-  <div class="post-content"><p>Chicago has always been a mosaic of shifting neighborhoods, but <strong>how</strong> they change — and <strong>why</strong> — is often hidden in thousands of rows of census data. In this project I set out to make those movements visible. Using recent American Community Survey (ACS) records and a dash of machine learning, I traced who is moving into each census tract, what makes those areas attractive, and how the picture has evolved between 2018 and 2023. Understanding these flows matters: migration reshapes the city’s economic life, housing market, and social fabric.</p>
+  <div class="post-content"><p>Chicago has always been a mosaic of shifting neighborhoods, but <strong>how</strong> they change — and <strong>why</strong> — is often hidden in thousands of rows of census data. In this project I set out to make those movements visible. Using recent American Community Survey (ACS) records and a dash of machine learning, I traced who is moving into each census tract, what makes those areas attractive, and how the picture has evolved between 2018 and 2023. Understanding these flows matters as migration often tells stories about the city’s economic and social changes.</p>
 <h2 id="from-raw-numbers-to-migration-fingerprints">From Raw Numbers to Migration “Fingerprints”<a hidden class="anchor" aria-hidden="true" href="#from-raw-numbers-to-migration-fingerprints">#</a></h2>
-<p><strong>Clustering the movers.</strong>  I began with 36 variables that describe only one thing: <em>inflow</em> migration in 2018—how many people arrived, where they came from, and their income levels. Running K-means on a PCA-reduced version of that data uncovered five distinctive migration fingerprints without relying on any preset labels.</p>
-<p><strong>Teaching the model to predict.</strong>  Next, I asked whether everyday neighborhood features—median income, rent, rail access, education levels, and more—could <em>predict</em> those fingerprints. Machine Learning models, trained on 2018 data and tested on 2023, achieved moderate accuracy. The biggest signals?</p>
-<ul>
-<li>A high share of residents with a bachelor’s degree</li>
-<li>A large proportion of renter-occupied housing</li>
-</ul>
-<h2 id="what-the-patterns-show">What the Patterns Show<a hidden class="anchor" aria-hidden="true" href="#what-the-patterns-show">#</a></h2>
+<p><strong>Clustering the movers.</strong>  I began with 36 variables that describe only one thing: <em>inflow</em> migration in 2018 - how many people arrived, where they came from, and their income levels. Running K-means on a PCA-reduced version of that data uncovered five distinctive migration fingerprints without relying on any preset labels.</p>
+<p><strong>Teaching the model to predict.</strong>  Next, I asked whether everyday neighborhood features—median income, rent, rail access, education levels, and more - could <em>predict</em> those fingerprints. Machine Learning models, trained on 2018 data and tested on 2023, achieved moderate accuracy. The most predicative features are levels of education and the proportion of renter-occupied housing. Note that these predictors do not suggest causal relationships but merely provides a way for understanding the concurrence between migration and socio-economic changes.</p>
+<h2 id="migration-patterns">Migration Patterns<a hidden class="anchor" aria-hidden="true" href="#migration-patterns">#</a></h2>
 <table>
   <thead>
       <tr>
           <th>Cluster label (brief)</th>
-          <th>Who’s moving in?</th>
           <th>Typical origin</th>
           <th>Income tilt</th>
       </tr>
@@ -226,31 +221,26 @@
   <tbody>
       <tr>
           <td>High-income magnet</td>
-          <td>Professionals &amp; managers</td>
           <td>Within Cook County</td>
           <td>Higher</td>
       </tr>
       <tr>
           <td>External working-class hub</td>
-          <td>Service &amp; trades workers</td>
           <td>Out-of-state</td>
           <td>Lower</td>
       </tr>
       <tr>
           <td>Local working-class</td>
-          <td>Similar income peers</td>
           <td>Nearby tracts</td>
           <td>Lower</td>
       </tr>
       <tr>
           <td>Mixed inflow, extremes</td>
-          <td>Both very low &amp; very high incomes</td>
           <td>Mixed</td>
           <td>Bimodal</td>
       </tr>
       <tr>
           <td>Low inflow, stable</td>
-          <td>Few newcomers</td>
           <td>–</td>
           <td>–</td>
       </tr>
