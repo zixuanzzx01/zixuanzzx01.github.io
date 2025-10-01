@@ -1,7 +1,7 @@
 ---
 draft: false
-date: '2025-04-28'
-title: About/CV
+date: '2025-10-01'
+title: About/CV (Updated October 2025)
 weight: 1
 tags: ["Personal Info"]
 summary: "See this page for brief academic CV."
@@ -29,6 +29,11 @@ Chicago, Illinois - zixuanzhou@uchicago.edu - (773) 633-9590 - [GitHub](https://
 - Conducted a literature review to discover the link between social networks and mental health and reveal how organizational structures influence psychological well-being
 
 ## PROJECTS
+
+**Simulating School Redistricting with Spatial Markov Chain Monte Carlo (MCMC) Methods**   *- Apr 2025 - May 2025* 
+- Cleaned and merged geospatial data from ACS, Census shapefiles, and CPS boundaries; performed tract-to-school spatial joins to construct dataset of household income distributions
+- Developed counterfactual school district maps using geospatial MCMC (GerryChain), simulating realistic redistricting scenarios that maintain contiguity and population balance
+- Parallelized simulation pipeline with UChicago's Midway Cluster, scaling to 100+ MCMC chains in under 60 seconds
 
 **Detecting Inflow Migration Patterns in Chicago Using Census Tract Data**   *- Jan 2025 - March 2025*  
 *Machine Learning | Geospatial Analysis | Data Visualization | Python*
