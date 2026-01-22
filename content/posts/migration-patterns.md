@@ -44,4 +44,4 @@ Between 2018 and 2023 many tracts **switched clusters**, underscoring how fluid 
 
 ## Want to Know More?
 
-The full slide deck—including data sources, variable lists, and model diagnostics—is available **[here](https://github.com/zixuanzzx01/Detecting-Neighborhood-Migration-Pattern)**. I’m always happy to chat about the methods, limitations, or next steps.
+The full slide deck—including data sources, variable lists, and model diagnostics—is available **[here](https://github.com/zixuanzzx01/Detecting-Neighborhood-Migration-Pattern)**. I’m always happy to chat about methods, limitations, or next steps.

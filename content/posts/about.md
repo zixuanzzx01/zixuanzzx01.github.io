@@ -15,18 +15,17 @@ Chicago, Illinois - zixuanzhou@uchicago.edu - (773) 633-9590 - [GitHub](https://
 ## EDUCATION
 
 **MA, Computational Social Science** — University of Chicago  *- Expected Jun 2026*
-- Select Coursework: Causal Inference (PhD), Machine Learning, Large-scale Computing, Economics of Companies
+- Select Coursework: Causal Inference, Machine Learning, Large-scale Computing, Cloud Computing, Industrial Organizations
 
 **BA, Economics & BA, English** — Peking University  *- Sep 2019 - Jul 2024*
 
 **Exchange Student (Fully Funded)** — University of California, Los Angeles  *- Sep 2022 - Dec 2022*
 
-## RESEARCH EXPERIENCE
+## TEACHING EXPERIENCE
+**Teaching Assistant - Python with Social Science Applications - University of Chicago** *- Jan 2026 - Present*
 
-**Research Assistant, UCLA** — Political Activism in Adolescents: A Social Network Perspective
-- Analyzed qualitative data on the goals and strategies for achieving social impact of over 1,000 participants of the American Civil Liberties Union's (ACLU) summer institute
-- Devised and revised preliminary coding schemes to categorize student responses into three major criteria: goals and intentions, strategy, and motivation, and coded the response data accordingly
-- Conducted a literature review to discover the link between social networks and mental health and reveal how organizational structures influence psychological well-being
+**Teaching Assistant - Computing for the Social Sciences - University of Chicago** *- Sep 2025 - Dec 2025*
+
 
 ## PROJECTS
 
@@ -59,8 +58,8 @@ Chicago, Illinois - zixuanzhou@uchicago.edu - (773) 633-9590 - [GitHub](https://
 
 ## SKILLS
 
-**Technical Skills:** Python (NumPy, Pandas, Matplotlib, Seaborn), R, STATA, LaTeX, SQL  
-**Data Analysis:** Causal Inference (DID, RDD, IV, Fixed Effects), NLP (regex, lemmatization, TF-IDF), Machine Learning  
+**Technical Skills:** Python, R, STATA, LaTeX, SQL  
+**Data Analysis:** Causal Inference, NLP, Machine Learning, Deep Learning, Geospatial Analysis
 **Languages:** Chinese (Native), English, Japanese (N1, Fluent)
 
 ## ADDITIONAL EXPERIENCE
