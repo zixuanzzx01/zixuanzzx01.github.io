@@ -1,16 +1,6 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+/* ACM-style fonts are loaded in layouts/partials/extend_head.html. */
 
-/* Vintage color palette variables */
-:root {
-  --vintage-cream: #f8f4e3;
-  --vintage-sepia: #d8c9b0;
-  --vintage-brown: #8b7a66;
-  --vintage-accent: #8b4513;
-  --vintage-navyblue: #2c3e50;
-  --vintage-sage: #7a8c7e;
-  --vintage-ink: #332d29;
-}
+/* Academic color variables live in blank.css. */
 
 
 /* CV specific heading sizes */
@@ -18,15 +8,15 @@
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: var(--vintage-accent);
+  color: var(--academic-accent-strong);
 }
 
 .post-content h2 {
   font-size: 1.3rem;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
-  color: var(--vintage-accent);
-  border-bottom: 1px solid var(--vintage-sepia);
+  color: var(--academic-accent-strong);
+  border-bottom: 1px solid var(--academic-rule);
   padding-bottom: 0.3rem;
 }
 
@@ -34,7 +24,7 @@
   font-size: 1.1rem;
   margin-top: 1.2rem;
   margin-bottom: 0.6rem;
-  color: var(--vintage-accent);
+  color: var(--academic-accent);
 }
 
 /* Make the top-level name (assuming it's an h1) special */
@@ -47,7 +37,7 @@
 /* For the skills and other sections with strong tags */
 .post-content strong {
   font-weight: 700;
-  color: var(--vintage-ink);
+  color: var(--academic-ink);
 }
 
 /* Make lists more compact in the CV */
@@ -58,12 +48,12 @@
 
 .post-content li {
   margin-bottom: 0.2rem;
-  color: var(--vintage-ink);
+  color: var(--academic-ink);
 }
 
 /* Add subtle dividers between major sections */
 .post-content h2 {
-  border-bottom: 1px solid var(--vintage-sepia);
+  border-bottom: 1px solid var(--academic-rule);
   padding-bottom: 0.3rem;
 }
 
@@ -72,7 +62,7 @@
   font-size: 1.05rem;
   margin-bottom: 0.3rem;
   font-weight: 500;
-  color: var(--vintage-brown);
+  color: var(--academic-muted);
 }
 
 /* Add some breathing room between sections */
@@ -81,22 +71,28 @@
   margin-top: 0.2rem;
 }
 
+.post-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* For italicized dates and keywords */
 .post-content em {
-  color: var(--vintage-sage);
+  color: var(--academic-muted);
   font-style: italic;
 }
 
-/* Style links with vintage accent */
+/* Style links with academic accent */
 .post-content a {
-  color: var(--vintage-accent);
+  color: var(--academic-accent);
   text-decoration: none;
-  border-bottom: 1px dotted var(--vintage-sepia);
-  transition: color 0.3s;
+  border-bottom: 1px dotted var(--academic-rule);
+  transition: color 0.2s, border-color 0.2s;
 }
 
 .post-content a:hover {
-  color: var(--vintage-brown);
+  color: var(--academic-accent-strong);
+  border-bottom-color: var(--academic-accent);
 }
 
 /* And/or target lists that follow paragraphs */

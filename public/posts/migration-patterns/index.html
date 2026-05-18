@@ -13,7 +13,7 @@
 <meta name="google-site-verification" content="googlede6942a167769d8f.html">
 <meta name="yandex-verification" content="XYZabc">
 <meta name="msvalidate.01" content="XYZabc">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.fafdb6dfe7a0406680481c51d0808e9f3a542480c182aba5d7fb7914bb89af93.css" integrity="sha256-&#43;v223&#43;egQGaASBxR0ICOnzpUJIDBgqul1/t5FLuJr5M=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b0191fc1b58f90c04e2dc518cb64088a071546f5b953f2be5de873ac59ab1a4d.css" integrity="sha256-sBkfwbWPkMBOLcUYy2QIigcVRvW5U/K&#43;XehzrFmrGk0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
@@ -58,7 +58,10 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/posts/migration-patterns/">
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<meta property="og:url" content="http://localhost:1313/posts/migration-patterns/">
   <meta property="og:site_name" content="My Site">
   <meta property="og:title" content="Detecting Neighborhood Migration Patterns in Chicago">
   <meta property="og:description" content="Chicago has always been a mosaic of shifting neighborhoods, but how they change — and why — is often hidden in thousands of rows of census data.">
@@ -105,8 +108,8 @@
   "keywords": [
     "Research"
   ],
-  "articleBody": "Chicago has always been a mosaic of shifting neighborhoods, but how they change — and why — is often hidden in thousands of rows of census data. In this project I set out to make those movements visible. Using recent American Community Survey (ACS) records and a dash of machine learning, I traced who is moving into each census tract, what makes those areas attractive, and how the picture has evolved between 2018 and 2023. Understanding these flows matters as migration often tells stories about the city’s economic and social changes.\nFrom Raw Numbers to Migration “Fingerprints” Clustering the movers. I began with 36 variables that describe only one thing: inflow migration in 2018 - how many people arrived, where they came from, and their income levels. Running K-means on a PCA-reduced version of that data uncovered five distinctive migration fingerprints without relying on any preset labels.\nTeaching the model to predict. Next, I asked whether everyday neighborhood features—median income, rent, rail access, education levels, and more - could predict those fingerprints. Machine Learning models, trained on 2018 data and tested on 2023, achieved moderate accuracy. The most predicative features are levels of education and the proportion of renter-occupied housing. Note that these predictors do not suggest causal relationships but merely provides a way for understanding the concurrence between migration and socio-economic changes.\nMigration Patterns Cluster label (brief) Typical origin Income tilt High-income magnet Within Cook County Higher External working-class hub Out-of-state Lower Local working-class Nearby tracts Lower Mixed inflow, extremes Mixed Bimodal Low inflow, stable – – The labels are shorthand derived from centroid characteristics; see the full technical report for details.\nChicago from 2018 to 2023: What Changed? Between 2018 and 2023 many tracts switched clusters, underscoring how fluid neighborhood identities can be. Tracts that gained rapid rail access, for instance, often shifted toward high-income or mixed-income magnets. At the same time, some formerly popular areas cooled as median rents outpaced incomes.\nWant to Know More? The full slide deck—including data sources, variable lists, and model diagnostics—is available here. I’m always happy to chat about the methods, limitations, or next steps.\n",
-  "wordCount" : "353",
+  "articleBody": "Chicago has always been a mosaic of shifting neighborhoods, but how they change — and why — is often hidden in thousands of rows of census data. In this project I set out to make those movements visible. Using recent American Community Survey (ACS) records and a dash of machine learning, I traced who is moving into each census tract, what makes those areas attractive, and how the picture has evolved between 2018 and 2023. Understanding these flows matters as migration often tells stories about the city’s economic and social changes.\nFrom Raw Numbers to Migration “Fingerprints” Clustering the movers. I began with 36 variables that describe only one thing: inflow migration in 2018 - how many people arrived, where they came from, and their income levels. Running K-means on a PCA-reduced version of that data uncovered five distinctive migration fingerprints without relying on any preset labels.\nTeaching the model to predict. Next, I asked whether everyday neighborhood features—median income, rent, rail access, education levels, and more - could predict those fingerprints. Machine Learning models, trained on 2018 data and tested on 2023, achieved moderate accuracy. The most predicative features are levels of education and the proportion of renter-occupied housing. Note that these predictors do not suggest causal relationships but merely provides a way for understanding the concurrence between migration and socio-economic changes.\nMigration Patterns Cluster label (brief) Typical origin Income tilt High-income magnet Within Cook County Higher External working-class hub Out-of-state Lower Local working-class Nearby tracts Lower Mixed inflow, extremes Mixed Bimodal Low inflow, stable – – The labels are shorthand derived from centroid characteristics; see the full technical report for details.\nChicago from 2018 to 2023: What Changed? Between 2018 and 2023 many tracts switched clusters, underscoring how fluid neighborhood identities can be. Tracts that gained rapid rail access, for instance, often shifted toward high-income or mixed-income magnets. At the same time, some formerly popular areas cooled as median rents outpaced incomes.\nWant to Know More? The full slide deck—including data sources, variable lists, and model diagnostics—is available here. I’m always happy to chat about methods, limitations, or next steps.\n",
+  "wordCount" : "352",
   "inLanguage": "en",
   "image":"http://localhost:1313/images/test.jpeg","datePublished": "2025-02-28T00:00:00Z",
   "dateModified": "2025-02-28T00:00:00Z",
@@ -198,7 +201,7 @@
     <h1 class="post-title entry-hint-parent">
       Detecting Neighborhood Migration Patterns in Chicago
     </h1>
-    <div class="post-meta"><span title='2025-02-28 00:00:00 +0000 UTC'>February 28, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;353 words&nbsp;·&nbsp;Zixuan Zhou
+    <div class="post-meta"><span title='2025-02-28 00:00:00 +0000 UTC'>February 28, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;352 words&nbsp;·&nbsp;Zixuan Zhou
 
 </div>
   </header> 
@@ -252,7 +255,7 @@
 <iframe src="/chicago_clusters_2018_interactive.html" class="embedded-content center" style="height: 700px; width: 100%;" ></iframe>
 <iframe src="/chicago_clusters_2023_interactive.html" class="embedded-content center" style="height: 700px; width: 100%;" ></iframe>
 <h2 id="want-to-know-more">Want to Know More?<a hidden class="anchor" aria-hidden="true" href="#want-to-know-more">#</a></h2>
-<p>The full slide deck—including data sources, variable lists, and model diagnostics—is available <strong><a href="https://github.com/zixuanzzx01/Detecting-Neighborhood-Migration-Pattern">here</a></strong>. I’m always happy to chat about the methods, limitations, or next steps.</p>
+<p>The full slide deck—including data sources, variable lists, and model diagnostics—is available <strong><a href="https://github.com/zixuanzzx01/Detecting-Neighborhood-Migration-Pattern">here</a></strong>. I’m always happy to chat about methods, limitations, or next steps.</p>
 
 
   </div>
@@ -265,7 +268,7 @@
   <a class="prev" href="http://localhost:1313/posts/about/">
     <span class="title">« Prev</span>
     <br>
-    <span>About/CV</span>
+    <span>About</span>
   </a>
 </nav>
 
@@ -274,7 +277,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My Site</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">My Site</a></span> · 
 
     <span>
         Powered by

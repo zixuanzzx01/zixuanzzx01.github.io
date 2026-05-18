@@ -1,75 +1,32 @@
 ---
 draft: false
-date: '2025-10-01'
-title: About/CV (Updated October 2025)
+date: '2026-05-17'
+title: About
 weight: 1
 tags: ["Personal Info"]
-summary: "See this page for brief academic CV."
+summary: "Learn more about me and my research interests."
 
 ---
 
-## ZIXUAN ZHOU
 
-Chicago, Illinois - zixuanzhou@uchicago.edu - (773) 633-9590 - [GitHub](https://github.com/zixuanzzx01)
+I am a master's student in Computational Social Science at the University of Chicago. Before coming to Chicago, I studied Economics and English at Peking University and spent a quarter at UCLA as an exchange student. My path has never fit neatly into one box, and I have come to like that about it. Economics trained me to think about incentives and systems; literature taught me to listen closely to language, form, and ambiguity; computational social science gives me tools to ask questions at a scale that would otherwise be impossible.
 
-## EDUCATION
+I care a lot about knowledge, not only as something to accumulate, but as a way of staying awake to the world. I like thinking across fields, testing ideas against one another, and following questions even when they lead somewhere unexpected. The different parts of my training are not separate versions of me; they are all part of how I make sense of things. I am drawn to work that lets me be analytical and imaginative at the same time.
 
-**MA, Computational Social Science** — University of Chicago  *- Expected Jun 2026*
-- Select Coursework: Causal Inference, Machine Learning, Large-scale Computing, Cloud Computing, Industrial Organizations
+My current research is broadly about how social systems produce spatial and institutional inequality. I am especially interested in cities, school choice, redistricting, and mobility: how boundaries, preferences, and local opportunity structures interact, and why technically reasonable interventions can still leave deeper patterns intact. Methodologically, I work with geospatial data, network models, simulation, machine learning, and causal inference.
 
-**BA, Economics & BA, English** — Peking University  *- Sep 2019 - Jul 2024*
+I am also interested in narrative itself: how things are said and perceived, what motivates people and institutions to choose one narrative over another, and what consequences those choices create. To me, narratives are not just containers for information. They shape attention, justify action, distribute blame, produce legitimacy, and sometimes make certain futures feel more imaginable than others. Computational text analysis gives me one way to study these questions, but the deeper curiosity is about language as a social force.
 
-**Exchange Student (Fully Funded)** — University of California, Los Angeles  *- Sep 2022 - Dec 2022*
+Music, film, and literature are not peripheral to me. They are some of the most important ways I have learned to notice, feel, and think. I have spent many years arranging and singing a cappella, and that experience shaped how I understand attention, collaboration, structure, and emotion. Literature and film, too, have given me ways to think about memory, desire, power, and the textures of ordinary life. They are not separate from how I approach research; they are part of how I approach the world.
 
-## TEACHING EXPERIENCE
-**Teaching Assistant - Python with Social Science Applications - University of Chicago** *- Jan 2026 - Present*
+## Research Interests
 
-**Teaching Assistant - Computing for the Social Sciences - University of Chicago** *- Sep 2025 - Dec 2025*
+- Computational social science
+- Urban inequality, segregation, and neighborhood change
+- School choice, redistricting, and public-sector algorithms
+- Spatial complex systems 
+- Causal inference, simulation, and network methods
+- NLP and LLM-based methods for social science
+- Mechanism design and institutional design
 
 
-## PROJECTS
-
-**Simulating School Redistricting with Spatial Markov Chain Monte Carlo (MCMC) Methods**   *- Apr 2025 - May 2025* 
-- Cleaned and merged geospatial data from ACS, Census shapefiles, and CPS boundaries; performed tract-to-school spatial joins to construct dataset of household income distributions
-- Developed counterfactual school district maps using geospatial MCMC (GerryChain), simulating realistic redistricting scenarios that maintain contiguity and population balance
-- Parallelized simulation pipeline with UChicago's Midway Cluster, scaling to 100+ MCMC chains in under 60 seconds
-
-**Detecting Inflow Migration Patterns in Chicago Using Census Tract Data**   *- Jan 2025 - March 2025*  
-*Machine Learning | Geospatial Analysis | Data Visualization | Python*
-- Cleaned, transformed, and merged ACS, Zillow, and CTA data
-- Performed feature engineering (e.g., inflation adjustments, log transformations) for robust analysis
-- Trained ML models and predicted urban displacement typology for 2023
-- Generated heatmaps and applied spatial clustering to detect neighborhood socio-economic shifts in Chicago
-
-**Impact of UHC Shooting on Health Insurance-related Sentiment: Evidence from Reddit Textual Data**  *- Jan 2025 - Feb 2025*  
-*Web Scraping | NLP | Machine Learning | Data Visualization | Python*
-- Scrapped, cleaned, and preprocessed 14k+ Reddit data using NLP (regex, stopword removal, lemmatization, TF-IDF)
-- Trained ML models for sentiment classification, increasing accuracy by 7% through fine-tuning hyperparameters
-- Analyzed sentiment trends over time and presented insights with visualizations using Seaborn
-
-**More Flexibility, Less Pressure? Impact of College Entrance Exam Reform: A Cohort DID Analysis**  *- Apr 2024 - May 2024*  
-*Causal Inference | Data Cleaning | Data Visualization | STATA*
-- Cleaned, pre-processed, and visualized over 150k data entries from China Family Panel Studies with STATA
-- Employed static and dynamic DiD models to estimate the policy impact of 2014 Chinese College Entrance Exam reform on cram school enrollment and study pressure
-
-**Woman, City, Public Space**  *- May 2023 - Jun 2023*
-- Explored how urban spatial layouts affect labor participation, focusing on women's access to employment
-- Authored a report linking urban planning to labor disparities, advocating for inclusive design and policy reform
-
-## SKILLS
-
-**Technical Skills:** Python, R, STATA, LaTeX, SQL  
-**Data Analysis:** Causal Inference, NLP, Machine Learning, Deep Learning, Geospatial Analysis
-**Languages:** Chinese (Native), English, Japanese (N1, Fluent)
-
-## ADDITIONAL EXPERIENCE
-
-**Tutor** — Peking University Academic Writing Workshop  *- Mar 2023 - Jun 2023*
-- Guided students to strategically utilize academic databases and library resources to develop research ideas
-- Proof-read students' research proposals and provided research suggestions accordingly
-
-## HONORS & AWARDS
-
-**M.A. Director's Scholarship | Gargoyle Research Scholarship** — University of Chicago *- May 2024*  
-**SPRIX Scholarship of Academic Excellence** — Peking University  *- Sep 2020 - Sep 2023*  
-**Research Excellence** — Peking University *- Sep 2023*

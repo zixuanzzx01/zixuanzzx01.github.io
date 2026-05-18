@@ -3,6 +3,48 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+:root {
+  --font-acm-serif: "Libertinus Serif", "Linux Libertine O", "Linux Libertine", "Times New Roman", Times, serif;
+  --font-acm-mono: "Source Code Pro", "Inconsolata", "DejaVu Sans Mono", Consolas, monospace;
+  --academic-page: #fbfaf6;
+  --academic-surface: #fffefb;
+  --academic-ink: #1f2933;
+  --academic-muted: #66727e;
+  --academic-border: #d8dee4;
+  --academic-rule: #c5d0d8;
+  --academic-accent: #264653;
+  --academic-accent-strong: #183642;
+  --academic-accent-soft: #e7eff2;
+  --theme: var(--academic-page);
+  --entry: var(--academic-surface);
+  --primary: var(--academic-ink);
+  --secondary: var(--academic-muted);
+  --tertiary: var(--academic-border);
+  --content: var(--academic-ink);
+  --code-bg: #eef2f4;
+  --border: var(--academic-border);
+}
+
+.dark {
+  --academic-page: #171b1f;
+  --academic-surface: #20262b;
+  --academic-ink: #e3e7ea;
+  --academic-muted: #adb7bf;
+  --academic-border: #3a444c;
+  --academic-rule: #4a5862;
+  --theme: #171b1f;
+  --entry: #20262b;
+  --primary: #edf0f2;
+  --secondary: #adb7bf;
+  --tertiary: #3d4851;
+  --content: #e3e7ea;
+  --code-bg: #252d33;
+  --border: #3a444c;
+  --academic-accent: #9dc7d4;
+  --academic-accent-strong: #c3dfe7;
+  --academic-accent-soft: #24333a;
+}
+
 .home-info p {
     margin-bottom: 1em;
     text-align: justify;
@@ -13,43 +55,137 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     list-style-type: disc;
   }
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+.home-info .entry-header {
+  margin-bottom: 0.9rem;
+}
 
 /* Apply fonts to elements */
 body {
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: var(--font-acm-serif);
   font-size: 15px;
   line-height: 1.7;
+  background: var(--theme);
 }
 
 h1, h2, h3, h4, h5, h6, .post-title, .post-content h1, .post-content h2, .post-content h3, 
 .post-content h4, .post-content h5, .post-content h6, .home-info .entry-header .entry-title {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: var(--font-acm-serif);
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.15;
+}
+
+.main {
+  max-width: 720px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--theme);
+  background: color-mix(in srgb, var(--theme) 92%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav {
+  border-bottom: 0;
+}
+
+.logo a {
+  color: var(--academic-accent-strong);
+  letter-spacing: 0;
+}
+
+#menu a {
+  color: var(--secondary);
+}
+
+#menu .active,
+#menu a:hover {
+  color: var(--academic-accent-strong);
+}
+
+.post-entry {
+  border-color: var(--border);
+  box-shadow: 0 10px 24px rgba(31, 41, 51, 0.04);
+  transform: translateY(0);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.post-entry:hover,
+.post-entry:focus-within {
+  background: color-mix(in srgb, var(--entry) 88%, var(--academic-accent-soft));
+  border-color: var(--border);
+  box-shadow: 0 18px 36px rgba(31, 41, 51, 0.11);
+  transform: translateY(-4px);
+}
+
+.post-entry .entry-link,
+.post-entry .entry-link:hover {
+  border-bottom: 0;
+}
+
+.dark .post-entry:hover,
+.dark .post-entry:focus-within {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-entry {
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .post-entry:hover,
+  .post-entry:focus-within {
+    transform: none;
+  }
+}
+
+.entry-header h2,
+.post-title,
+.page-header h1 {
+  color: var(--academic-accent-strong);
 }
 
 .home-info .entry-content {
-  font-family: 'EB Garamond', Georgia, serif;
+  border-left: 3px solid var(--academic-rule);
+  font-family: var(--font-acm-serif);
   font-size: 15px;
   line-height: 1.7;
+  padding-left: 1.2rem;
+  color: var(--academic-ink);
 }
 
-/* Add some vintage styling touches */
+.home-info .entry-content p,
+.home-info .entry-content li {
+  color: var(--academic-ink);
+}
+
 blockquote {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: var(--font-acm-serif);
   font-style: italic;
-  border-left: 3px solid #d1c9b8;
+  border-left: 3px solid var(--academic-rule);
   padding-left: 1.5em;
-  color: #666;
+  color: var(--secondary);
 }
 
-/* Make links more vintage styled */
+code,
+kbd,
+pre,
+samp {
+  font-family: var(--font-acm-mono);
+}
+
 a {
-  color: #8b4513; /* Saddle brown - a vintage color */
+  color: var(--academic-accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.3s;
+  transition: color 0.2s, border-color 0.2s;
 }
 
+a:hover {
+  color: var(--academic-accent-strong);
+  border-bottom-color: var(--academic-rule);
+}
