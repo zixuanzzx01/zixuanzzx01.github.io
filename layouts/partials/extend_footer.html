@@ -1,0 +1,71 @@
+<script>
+(() => {
+  const toc = document.querySelector(".post-single > .toc");
+  const content = document.querySelector(".post-content");
+
+  if (!toc || !content) {
+    return;
+  }
+
+  const links = Array.from(toc.querySelectorAll('a[href^="#"]'));
+  const headings = Array.from(content.querySelectorAll("h1, h2, h3, h4, h5, h6"))
+    .filter((heading) => heading.id);
+
+  if (!links.length || !headings.length) {
+    return;
+  }
+
+  const linkById = new Map(
+    links.map((link) => [decodeURIComponent(link.hash.slice(1)), link])
+  );
+
+  const setActive = (id) => {
+    links.forEach((link) => {
+      link.classList.remove("is-active");
+      link.removeAttribute("aria-current");
+      link.closest("li")?.classList.remove("is-active-item");
+    });
+
+    const active = linkById.get(id);
+    if (!active) {
+      return;
+    }
+
+    active.classList.add("is-active");
+    active.setAttribute("aria-current", "location");
+    active.closest("li")?.classList.add("is-active-item");
+  };
+
+  const updateActive = () => {
+    const anchorLine = window.scrollY + Math.round(window.innerHeight * 0.28);
+    let current = headings[0];
+
+    for (const heading of headings) {
+      if (heading.offsetTop <= anchorLine) {
+        current = heading;
+      } else {
+        break;
+      }
+    }
+
+    setActive(current.id);
+  };
+
+  let ticking = false;
+  const requestUpdate = () => {
+    if (ticking) {
+      return;
+    }
+
+    ticking = true;
+    window.requestAnimationFrame(() => {
+      updateActive();
+      ticking = false;
+    });
+  };
+
+  updateActive();
+  window.addEventListener("scroll", requestUpdate, { passive: true });
+  window.addEventListener("resize", requestUpdate);
+})();
+</script>

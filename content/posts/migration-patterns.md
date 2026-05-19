@@ -1,6 +1,6 @@
 ---
 date: '2025-02-28'
-draft: false
+draft: true 
 title: 'Detecting Neighborhood Migration Patterns in Chicago'
 weight: 10
 tags: ["Research"]

@@ -9,7 +9,7 @@ summary: "Learn more about me and my research interests."
 ---
 
 
-I am a master's student in Computational Social Science at the University of Chicago. Before coming to Chicago, I studied Economics and English at Peking University and spent a quarter at UCLA as an exchange student. My path has never fit neatly into one box, and I have come to like that about it. Economics trained me to think about incentives and systems; literature taught me to listen closely to language, form, and ambiguity; computational social science gives me tools to ask questions at a scale that would otherwise be impossible.
+I am a master's student in Computational Social Science at the University of Chicago. Before coming to Chicago, I studied Economics and English at Peking University and spent a quarter at UCLA as an exchange student. My path has never fit neatly into one box, and I have come to like that about it. Social Science trained me to think about incentives and systems; literature taught me to listen closely to language, form, and ambiguity; computational social science gives me tools to ask questions at a scale that would otherwise be impossible.
 
 I care a lot about knowledge, not only as something to accumulate, but as a way of staying awake to the world. I like thinking across fields, testing ideas against one another, and following questions even when they lead somewhere unexpected. The different parts of my training are not separate versions of me; they are all part of how I make sense of things. I am drawn to work that lets me be analytical and imaginative at the same time.
 
