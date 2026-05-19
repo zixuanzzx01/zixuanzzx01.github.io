@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/posts/about/</loc>
+    <loc>http://localhost:64399/posts/about/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/posts/narrative-friction/</loc>
+    <loc>http://localhost:64399/posts/narrative-friction/</loc>
     <lastmod>2026-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/</loc>
+    <loc>http://localhost:64399/</loc>
     <lastmod>2026-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/posts/</loc>
+    <loc>http://localhost:64399/posts/</loc>
     <lastmod>2026-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/research/</loc>
+    <loc>http://localhost:64399/tags/research/</loc>
     <lastmod>2026-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/</loc>
+    <loc>http://localhost:64399/tags/</loc>
     <lastmod>2026-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/tags/personal-info/</loc>
+    <loc>http://localhost:64399/tags/personal-info/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/archives/</loc>
+    <loc>http://localhost:64399/archives/</loc>
   </url><url>
-    <loc>http://localhost:1314/categories/</loc>
+    <loc>http://localhost:64399/categories/</loc>
   </url>
 </urlset>

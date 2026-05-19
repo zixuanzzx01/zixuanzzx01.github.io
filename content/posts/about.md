@@ -21,12 +21,16 @@ Music, film, and literature are not peripheral to me. They are some of the most 
 
 ## Research Interests
 
-- Computational social science
+**Fields**
 - Urban inequality, segregation, and neighborhood change
 - School choice, redistricting, and public-sector algorithms
 - Spatial complex systems 
-- Causal inference, simulation, and network methods
-- NLP and LLM-based methods for social science
 - Mechanism design and institutional design
+
+**Methods**
+- Computational social science
+- Causal inference and simulation
+- Network methods
+- NLP and LLM-based methods for social science
 
 
